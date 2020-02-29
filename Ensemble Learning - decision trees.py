@@ -24,7 +24,7 @@ plt.title('Input data')
 
 # Split data into training and testing datasets
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.25, random_state=5) # X_train, X_test, y_train, y_test = cross_validation.train_test_split(
-X, y, test_size=0.25, random_state=5) - does not work
+#X, y, test_size=0.25, random_state=5) - does not work
 
 # Decision Trees classifier
 params = {'random_state': 0, 'max_depth': 4}
